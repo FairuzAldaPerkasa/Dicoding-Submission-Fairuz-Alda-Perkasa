@@ -77,7 +77,7 @@ st.markdown("""
 # Helper functions (unchanged)
 @st.cache_data
 def load_data():
-    return pd.read_csv('Project_Data_Clean.csv')
+    return pd.read_csv('https://github.com/FairuzAldaPerkasa/Dicoding-Submission-Fairuz-Alda-Perkasa/blob/8923d4d80bce78b43e00909d16842c28a2303ac6/dashboard/Project_Data_Clean.csv')
 
 def create_top_categories_bycity_df(df):
     return df.rename(columns={"product_category_name_english": "category_name"})
